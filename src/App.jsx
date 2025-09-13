@@ -75,7 +75,7 @@ export default function LandingPage() {
         <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollTo('hero')}>
           <img src={logo} alt="Moovable Logo" className="w-24 h-24 object-contain" />
-            <div className="font-semibold">""</div>
+            <div className="font-semibold">"Moovable"</div>
           </div>
 
           <div className="hidden md:flex items-center gap-6 text-sm font-medium">
