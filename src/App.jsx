@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Truck, Wrench, CreditCard, Users, BarChart3, ShoppingBag } from "lucide-react";
 import './index.css';
-import logo from './assets/logoo.jpg';
+import logo from './asset/logo.jpg';
 
 
 export default function LandingPage() {
