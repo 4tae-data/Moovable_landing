@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Truck, Wrench, CreditCard, Users, BarChart3, ShoppingBag } from "lucide-react";
 import './index.css';
+import logo from './assets/logoo.jpg';
+
 
 export default function LandingPage() {
   const [email, setEmail] = useState("");
@@ -72,7 +74,7 @@ export default function LandingPage() {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/70 backdrop-blur-sm border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => scrollTo('hero')}>
-            <div className="w-10 h-10 rounded-md bg-black text-yellow-400 flex items-center justify-center font-bold">M</div>
+          <img src={logo} alt="Moovable Logo" className="w-10 h-10 object-contain" />
             <div className="font-semibold">Moovable</div>
           </div>
 
